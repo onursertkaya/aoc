@@ -8,10 +8,9 @@ golang docker image or golang installed.
 
 # Commands
 
-## Launch base docker image for development environment.
 ```bash
 $ cd path/to/repo/root
-$ docker run -it -v ${PWD}:/aoc -w /aoc golang:1.18
+$ docker run -it -v ${PWD}:/aoc -w /aoc golang:1.21  # optional
 ```
 
 ## Initialize, build and run a module

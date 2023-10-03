@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"lib/util"
+	"src/lib/util"
 )
 
 // file -> package
